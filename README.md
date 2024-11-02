@@ -63,13 +63,6 @@ Wires and Connectors: For circuit connections
 Breadboard: For prototyping
 
 
-This concise version covers the essential components for each element of the Unsmart Garden.
-.For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
 For Hardware:
 - Main Components for Funny Fan, Philosophical Clock, and Dramatic Mood Light
 
@@ -159,32 +152,6 @@ Hot glue gun (for securing components)
 
 
 Scissors (for cutting wires or materials)
-
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
 For Hardware:
 
