@@ -47,7 +47,7 @@ OLED Screen: To display quotes and thoughts
 
 Microcontroller: ESP32/Arduino Uno/Nano
 
-RGB LEDs: For dramatic lighting
+LEDs: For dramatic lighting
 
 Buzzer: For sound effects
 
@@ -81,6 +81,8 @@ Propellor
 
 OLED
 
+Ultrasonic sensor
+
 
 2. Philosophical Plant:
 
@@ -110,6 +112,8 @@ Microcontroller: ESP32 (Dual-core, Wi-Fi)
 Propellor:5v
 
 OLED Screen: 0.96" I2C, 128x64 pixels
+
+Ultrasonic sensor
 
 2. Philosophical Plant:
 
