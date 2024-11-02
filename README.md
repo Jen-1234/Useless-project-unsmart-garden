@@ -4,35 +4,197 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: OMEGA
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: JEEVAN THOMAS  - NSS COLLEGE OF ENGINEERING
+- Member 2: AKASH M - NSS COLLEGE OF ENGINEERING
+- Member 3: MEGHA K A - NSS COLLEGE OF ENGINEERING
 
 ### Project Description
-[2-3 lines about what your project does]
+The Useless Smart Garden is a quirky, interactive setup where devices humorously react to their surroundings, creating a comically pointless yet entertaining display.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+In an age of smart technology, there is a lack of whimsical, humorous garden solutions that prioritize absurdity and playfulness, leaving a void for creativity and laughter in everyday life.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+The Unsmart Garden, a comically absurd garden system that features quirky, non-functional devices designed solely to entertain, provoke laughter, and encourage playful interactions with technology.
 
 ## Technical Details
 ### Technologies/Components Used
-For Software:
+1. Funny Fan
+
+Microcontroller: ESP32/Arduino Uno/Nano
+
+Motor: DC or servo motor (for spinning)
+
+Buzzer: For sound effects
+
+LEDs: For lighting effects (optional)
+
+Push Button: To start/stop the fan
+
+
+2. Philosophical Plant
+
+Microcontroller: ESP32/Arduino Uno/Nano
+
+RTC: For time-based messages
+
+OLED Screen: To display quotes and thoughts
+
+Buzzer: For sound reactions
+
+Optional Sensors: Light/moisture for humorous complaints
+
+
+3. Dramatic Mood Light
+
+Microcontroller: ESP32/Arduino Uno/Nano
+
+RGB LEDs: For dramatic lighting
+
+Buzzer: For sound effects
+
+Push Button: To change light modes
+
+Optional Light Sensor: To detect ambient brightness
+
+
+Integration
+
+Wi-Fi Module: For app control
+
+Wires and Connectors: For circuit connections
+
+Breadboard: For prototyping
+
+
+This concise version covers the essential components for each element of the Unsmart Garden.
+.For Software:
 - [Languages used]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Main Components for Funny Fan, Philosophical Plant, and Dramatic Mood Light
+
+1. Funny Fan:
+
+ESP32 or Arduino Uno/Nano
+
+DC motor or servo motor
+
+Buzzer
+
+LEDs (optional)
+
+Push Button
+
+
+
+2. Philosophical Plant:
+
+ESP32 or Arduino Uno/Nano
+
+Real-Time Clock (RTC)
+
+OLED Screen
+
+Buzzer
+
+Light or Moisture Sensors (optional)
+
+
+
+3. Dramatic Mood Light:
+
+ESP32 or Arduino Uno/Nano
+
+RGB LED Strip or Module
+
+Buzzer
+
+Push Button
+
+Light Sensor (optional)
+- Specifications for Funny Fan, Philosophical Plant, and Dramatic Mood Light
+
+1. Funny Fan:
+
+Microcontroller: ESP32 (Dual-core, Wi-Fi) / Arduino Uno (ATmega328, 16 MHz)
+
+Motor: DC Motor (5-12V) / Servo Motor (Torque varies)
+
+Buzzer: 5V passive or active
+
+LEDs: Standard 5mm or RGB (3V, 20 mA)
+
+Push Button: Normally open, 5V compatible
+
+
+
+2. Philosophical Plant:
+
+Microcontroller: ESP32 / Arduino Uno
+
+RTC: DS3231 or DS1307 (3V-5V)
+
+OLED Screen: 0.96" I2C, 128x64 pixels
+
+Buzzer: 5V passive or active
+
+Sensors: LDR (light) / Capacitive or resistive (moisture)
+
+
+
+3. Dramatic Mood Light:
+
+Microcontroller: ESP32 / Arduino Uno
+
+RGB LED Strip: 12V (2A/m rating)
+
+Buzzer: 5V passive or active
+
+Push Button: Normally open, 5V compatible
+
+Light Sensor: LDR or BH1750 (3V-5V)
+
+- Tools Required for the Unsmart Garden Project (No Soldering or Multimeter)
+
+1. Development Tools:
+
+Computer with Arduino IDE or PlatformIO
+
+USB cable (for programming microcontrollers)
+
+
+
+2. Prototyping Tools:
+
+Breadboard
+
+Jumper wires (male-to-male and male-to-female)
+
+Resistors (various values)
+
+Push buttons
+
+
+3. Assembly Tools:
+
+Hot glue gun (for securing components)
+
+Tape (for mounting components)
+
+Scissors (for cutting wires or materials)
+
+
+
+
+These tools will facilitate the assembly and testing of the Unsmart Garden components without the need for soldering or a multimeter.
 
 ### Implementation
 For Software:
