@@ -1,6 +1,6 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# HOUSE OF NOPE 🎯
 
 
 ## Basic Details
@@ -13,40 +13,34 @@
 - Member 3: MEGHA K A - NSS COLLEGE OF ENGINEERING
 
 ### Project Description
-The Useless Smart Garden is a quirky, interactive setup where devices humorously react to their surroundings, creating a comically pointless yet entertaining display.
+The Useless home application is a quirky, interactive setup where devices humorously react to their surroundings, creating a comically pointless yet entertaining display.
 
 ### The Problem (that doesn't exist)
-In an age of smart technology, there is a lack of whimsical, humorous garden solutions that prioritize absurdity and playfulness, leaving a void for creativity and laughter in everyday life.
+In an age of smart technology, there is a lack of whimsical, humorous home solutions that prioritize absurdity and playfulness, leaving a void for creativity and laughter in everyday life.
 
 ### The Solution (that nobody asked for)
-The Unsmart Garden, a comically absurd garden system that features quirky, non-functional devices designed solely to entertain, provoke laughter, and encourage playful interactions with technology.
+The Unsmart home, a comically absurd home system that features quirky, non-functional devices designed solely to entertain, provoke laughter, and encourage playful interactions with technology.
 
 ## Technical Details
 ### Technologies/Components Used
 1. Funny Fan
 
-Microcontroller: ESP32/Arduino Uno/Nano
+Microcontroller: ESP32
 
-Motor: DC or servo motor (for spinning)
+Motor: propellor (for spinning)
 
-Buzzer: For sound effects
+OLED:for display
 
-LEDs: For lighting effects (optional)
-
-Push Button: To start/stop the fan
+DHT Sensor:to sense temperature
 
 
-2. Philosophical Plant
+2. Philosophical Clock 
 
-Microcontroller: ESP32/Arduino Uno/Nano
+Microcontroller: ESP32
 
 RTC: For time-based messages
 
 OLED Screen: To display quotes and thoughts
-
-Buzzer: For sound reactions
-
-Optional Sensors: Light/moisture for humorous complaints
 
 
 3. Dramatic Mood Light
@@ -56,8 +50,6 @@ Microcontroller: ESP32/Arduino Uno/Nano
 RGB LEDs: For dramatic lighting
 
 Buzzer: For sound effects
-
-Push Button: To change light modes
 
 Optional Light Sensor: To detect ambient brightness
 
@@ -79,25 +71,20 @@ This concise version covers the essential components for each element of the Uns
 - [Tools used]
 
 For Hardware:
-- Main Components for Funny Fan, Philosophical Plant, and Dramatic Mood Light
+- Main Components for Funny Fan, Philosophical Clock, and Dramatic Mood Light
 
 1. Funny Fan:
 
-ESP32 or Arduino Uno/Nano
+ESP32 
 
-DC motor or servo motor
+Propellor
 
-Buzzer
-
-LEDs (optional)
-
-Push Button
-
+OLED
 
 
 2. Philosophical Plant:
 
-ESP32 or Arduino Uno/Nano
+ESP32 
 
 Real-Time Clock (RTC)
 
@@ -105,36 +92,24 @@ OLED Screen
 
 Buzzer
 
-Light or Moisture Sensors (optional)
-
-
-
 3. Dramatic Mood Light:
 
-ESP32 or Arduino Uno/Nano
+ESP32 
 
 RGB LED Strip or Module
 
 Buzzer
 
-Push Button
 
-Light Sensor (optional)
 - Specifications for Funny Fan, Philosophical Plant, and Dramatic Mood Light
 
 1. Funny Fan:
 
-Microcontroller: ESP32 (Dual-core, Wi-Fi) / Arduino Uno (ATmega328, 16 MHz)
+Microcontroller: ESP32 (Dual-core, Wi-Fi) 
 
-Motor: DC Motor (5-12V) / Servo Motor (Torque varies)
+Propellor:5v
 
-Buzzer: 5V passive or active
-
-LEDs: Standard 5mm or RGB (3V, 20 mA)
-
-Push Button: Normally open, 5V compatible
-
-
+OLED Screen: 0.96" I2C, 128x64 pixels
 
 2. Philosophical Plant:
 
@@ -146,27 +121,20 @@ OLED Screen: 0.96" I2C, 128x64 pixels
 
 Buzzer: 5V passive or active
 
-Sensors: LDR (light) / Capacitive or resistive (moisture)
-
-
 
 3. Dramatic Mood Light:
 
 Microcontroller: ESP32 / Arduino Uno
 
-RGB LED Strip: 12V (2A/m rating)
+LED:1.8v-2.5v
 
 Buzzer: 5V passive or active
 
-Push Button: Normally open, 5V compatible
-
-Light Sensor: LDR or BH1750 (3V-5V)
-
-- Tools Required for the Unsmart Garden Project (No Soldering or Multimeter)
+- Tools Required for the Unsmart Home Project:
 
 1. Development Tools:
 
-Computer with Arduino IDE or PlatformIO
+Computer with Arduino IDE 
 
 USB cable (for programming microcontrollers)
 
@@ -180,21 +148,14 @@ Jumper wires (male-to-male and male-to-female)
 
 Resistors (various values)
 
-Push buttons
-
 
 3. Assembly Tools:
 
 Hot glue gun (for securing components)
 
-Tape (for mounting components)
 
 Scissors (for cutting wires or materials)
 
-
-
-
-These tools will facilitate the assembly and testing of the Unsmart Garden components without the need for soldering or a multimeter.
 
 ### Implementation
 For Software:
